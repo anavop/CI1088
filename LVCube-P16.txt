@@ -1,0 +1,180 @@
+
+===========================================================
+Algoritmo VCube - Trabalho 1
+Aluna: Ana de Vasconcellos Oporto
+Disciplina: Sistemas Distribuídos
+Última Modificação: 24 de abril de 2024
+===========================================================
+
+----------------------------------------------------------- 
+Existem 16 processos e 4 p_clusts no sistema.
+O tempo do intervalo de testes é de 30.0 unidades de tempo.
+O tempo máximo de execução é de 150.0 unidades de tempo.
+
+----------------------------------------------------------- 
+
+
+ --------------------  RODADA 1 ---------------------- 
+
+O processo 4 falhou no tempo  0.0
+O processo 5 falhou no tempo  0.0
+O processo 6 falhou no tempo  0.0
+O processo 7 falhou no tempo  0.0
+ P0 TESTA P1 --> Correto no Instante   30.0 
+ P1 TESTA P0 --> Correto no Instante   30.0 
+ P2 TESTA P3 --> Correto no Instante   30.0 
+ P3 TESTA P2 --> Correto no Instante   30.0 
+ P8 TESTA P9 --> Correto no Instante   30.0 
+ P9 TESTA P8 --> Correto no Instante   30.0 
+ P10 TESTA P11 --> Correto no Instante   30.0 
+ P11 TESTA P10 --> Correto no Instante   30.0 
+ P12 TESTA P13 --> Correto no Instante   30.0 
+ P13 TESTA P12 --> Correto no Instante   30.0 
+ P14 TESTA P15 --> Correto no Instante   30.0 
+ P15 TESTA P14 --> Correto no Instante   30.0 
+
+State Do P0:  0  0  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P1:  0  0  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P2:  -1  -1  0  0  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P3:  -1  -1  0  0  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P4:  -1  -1  -1  -1  1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P5:  -1  -1  -1  -1  -1  1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P6:  -1  -1  -1  -1  -1  -1  1  -1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P7:  -1  -1  -1  -1  -1  -1  -1  1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P8:  -1  -1  -1  -1  -1  -1  -1  -1  0  0  -1  -1  -1  -1  -1  -1 
+State Do P9:  -1  -1  -1  -1  -1  -1  -1  -1  0  0  -1  -1  -1  -1  -1  -1 
+State Do P10:  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  0  -1  -1  -1  -1 
+State Do P11:  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  0  -1  -1  -1  -1 
+State Do P12:  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  0  -1  -1 
+State Do P13:  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  0  -1  -1 
+State Do P14:  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  0 
+State Do P15:  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  0 
+
+Número de testes realizados até o momento: 12 
+
+
+
+
+ --------------------  RODADA 2 ---------------------- 
+ P0 TESTA P2 --> Correto no Instante   60.0 
+ P1 TESTA P3 --> Correto no Instante   60.0 
+ P2 TESTA P0 --> Correto no Instante   60.0 
+ P3 TESTA P1 --> Correto no Instante   60.0 
+ P8 TESTA P10 --> Correto no Instante   60.0 
+ P9 TESTA P11 --> Correto no Instante   60.0 
+ P10 TESTA P8 --> Correto no Instante   60.0 
+ P11 TESTA P9 --> Correto no Instante   60.0 
+ P12 TESTA P14 --> Correto no Instante   60.0 
+ P13 TESTA P15 --> Correto no Instante   60.0 
+ P14 TESTA P12 --> Correto no Instante   60.0 
+ P15 TESTA P13 --> Correto no Instante   60.0 
+
+State Do P0:  0  0  0  0  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P1:  0  0  0  0  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P2:  0  0  0  0  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P3:  0  0  0  0  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P4:  -1  -1  -1  -1  1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P5:  -1  -1  -1  -1  -1  1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P6:  -1  -1  -1  -1  -1  -1  1  -1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P7:  -1  -1  -1  -1  -1  -1  -1  1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P8:  -1  -1  -1  -1  -1  -1  -1  -1  0  0  0  0  -1  -1  -1  -1 
+State Do P9:  -1  -1  -1  -1  -1  -1  -1  -1  0  0  0  0  -1  -1  -1  -1 
+State Do P10:  -1  -1  -1  -1  -1  -1  -1  -1  0  0  0  0  -1  -1  -1  -1 
+State Do P11:  -1  -1  -1  -1  -1  -1  -1  -1  0  0  0  0  -1  -1  -1  -1 
+State Do P12:  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  0  0  0 
+State Do P13:  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  0  0  0 
+State Do P14:  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  0  0  0 
+State Do P15:  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  0  0  0 
+
+Número de testes realizados até o momento: 24 
+
+
+
+
+ --------------------  RODADA 3 ---------------------- 
+ P0 TESTA P4 --> Falho no Instante   90.0 
+ P1 TESTA P5 --> Falho no Instante   90.0 
+ P2 TESTA P6 --> Falho no Instante   90.0 
+ P3 TESTA P7 --> Falho no Instante   90.0 
+ P8 TESTA P0 --> Correto no Instante   90.0 
+ P9 TESTA P13 --> Correto no Instante   90.0 
+ P10 TESTA P14 --> Correto no Instante   90.0 
+ P11 TESTA P15 --> Correto no Instante   90.0 
+ P12 TESTA P8 --> Correto no Instante   90.0 
+ P13 TESTA P9 --> Correto no Instante   90.0 
+ P14 TESTA P10 --> Correto no Instante   90.0 
+ P15 TESTA P11 --> Correto no Instante   90.0 
+
+State Do P0:  0  0  0  0  1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P1:  0  0  0  0  -1  1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P2:  0  0  0  0  -1  -1  1  -1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P3:  0  0  0  0  -1  -1  -1  1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P4:  -1  -1  -1  -1  1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P5:  -1  -1  -1  -1  -1  1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P6:  -1  -1  -1  -1  -1  -1  1  -1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P7:  -1  -1  -1  -1  -1  -1  -1  1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P8:  0  0  0  0  1  -1  -1  -1  0  0  0  0  -1  -1  -1  -1 
+State Do P9:  -1  -1  -1  -1  -1  -1  -1  -1  0  0  0  0  0  0  0  0 
+State Do P10:  -1  -1  -1  -1  -1  -1  -1  -1  0  0  0  0  0  0  0  0 
+State Do P11:  -1  -1  -1  -1  -1  -1  -1  -1  0  0  0  0  0  0  0  0 
+State Do P12:  0  0  0  0  1  -1  -1  -1  0  0  0  0  0  0  0  0 
+State Do P13:  -1  -1  -1  -1  -1  -1  -1  -1  0  0  0  0  0  0  0  0 
+State Do P14:  -1  -1  -1  -1  -1  -1  -1  -1  0  0  0  0  0  0  0  0 
+State Do P15:  -1  -1  -1  -1  -1  -1  -1  -1  0  0  0  0  0  0  0  0 
+
+Número de testes realizados até o momento: 36 
+
+
+
+
+ --------------------  RODADA 4 ---------------------- 
+ P0 TESTA P8 --> Correto no Instante  120.0 
+ P1 TESTA P9 --> Correto no Instante  120.0 
+ P2 TESTA P10 --> Correto no Instante  120.0 
+ P3 TESTA P11 --> Correto no Instante  120.0 
+ P8 TESTA P0 --> Correto no Instante  120.0 
+ P9 TESTA P1 --> Correto no Instante  120.0 
+ P10 TESTA P2 --> Correto no Instante  120.0 
+ P11 TESTA P3 --> Correto no Instante  120.0 
+ P12 TESTA P4 --> Falho no Instante  120.0 
+ P13 TESTA P5 --> Falho no Instante  120.0 
+ P14 TESTA P6 --> Falho no Instante  120.0 
+ P15 TESTA P7 --> Falho no Instante  120.0 
+
+State Do P0:  0  0  0  0  1  -1  -1  -1  0  0  0  0  -1  -1  -1  -1 
+State Do P1:  0  0  0  0  -1  1  -1  -1  0  0  0  0  0  0  0  0 
+State Do P2:  0  0  0  0  -1  -1  1  -1  0  0  0  0  0  0  0  0 
+State Do P3:  0  0  0  0  -1  -1  -1  1  0  0  0  0  0  0  0  0 
+State Do P4:  -1  -1  -1  -1  1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P5:  -1  -1  -1  -1  -1  1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P6:  -1  -1  -1  -1  -1  -1  1  -1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P7:  -1  -1  -1  -1  -1  -1  -1  1  -1  -1  -1  -1  -1  -1  -1  -1 
+State Do P8:  0  0  0  0  1  -1  -1  -1  0  0  0  0  -1  -1  -1  -1 
+State Do P9:  0  0  0  0  -1  1  -1  -1  0  0  0  0  0  0  0  0 
+State Do P10:  0  0  0  0  -1  -1  1  -1  0  0  0  0  0  0  0  0 
+State Do P11:  0  0  0  0  -1  -1  -1  1  0  0  0  0  0  0  0  0 
+State Do P12:  0  0  0  0  1  -1  -1  -1  0  0  0  0  0  0  0  0 
+State Do P13:  -1  -1  -1  -1  -1  1  -1  -1  0  0  0  0  0  0  0  0 
+State Do P14:  -1  -1  -1  -1  -1  -1  1  -1  0  0  0  0  0  0  0  0 
+State Do P15:  -1  -1  -1  -1  -1  -1  -1  1  0  0  0  0  0  0  0  0 
+
+Número de testes realizados até o momento: 48 
+
+
+
+
+ --------------------  RODADA 5 ---------------------- 
+ P0 TESTA P1 --> Correto no Instante  150.0 
+
+ Rodada não finalizada. 
+
+ ================================================================================ 
+
+ ------------------------------ FIM DA SIMULAÇÃO --------------------------------
+
+Resultados:
+4 eventosocorreram durante a detecção de falha
+Número de rodadas de testes completas durante a simulação: 4
+Ocorreram 49 testes ao total.
+
+ ================================================================================ 
